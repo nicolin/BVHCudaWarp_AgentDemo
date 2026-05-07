@@ -17,7 +17,7 @@ def distance(p1, p2):
 
 def query_environment(agent_pos, data):
     """Simulates an Agent querying its surroundings using the loaded .npz data"""
-    print(f"\n Agent querying env from {agent_pos[:2]}...")
+    print(f"\n Agent querying env from {agent_pos[:2]}")
 
     # 1. Nearest Room
     room_coords = data['room_coords']
